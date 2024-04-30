@@ -10,7 +10,7 @@ function Game_Board() {
     ]);
 
     let [turn, setTurn] = useState("X");
-    let [symbol, setsymbol] = useState("");
+    // let [symbol, setsymbol] = useState("");
     let [winner, setwinner] = useState(false);
 
     function handleClick(event, row_idx, col_idx) {
