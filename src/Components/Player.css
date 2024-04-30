@@ -1,0 +1,31 @@
+.player-container{
+    height: 60%;
+    width: 45%;
+    background-color: rgb(180, 180, 180);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.edt-btn{
+    border: none;
+    height: 28px;
+    width: 48px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.cross{
+    cursor: pointer;
+}
+.symbol{
+    font-size: larger;
+    font-weight: bolder;
+}
+.inputxt{
+    height: 40%;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
